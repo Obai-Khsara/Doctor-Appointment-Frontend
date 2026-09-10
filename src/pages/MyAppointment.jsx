@@ -39,7 +39,7 @@ const MyAppointment = () => {
 
 
                                 <img loading='lazy'
-                                    className='w-20 h-20 rounded-full object-cover border' src={` https://doctor-appointment-backend-umot.onrender.com/uploads/${app?.doctor?.image}`} />
+                                    className='w-20 h-20 rounded-full object-cover border' src={app?.doctor?.image} />
 
                                 <div>
 

@@ -66,7 +66,7 @@ const Departments = () => {
                                 {/* for image */}
                                 <div className="w-48 h-48">
                                     <img loading='lazy'
-                                        src={` https://doctor-appointment-backend-umot.onrender.com/uploads/${dep?.image}`}
+                                        src={dep?.image}
                                         alt={dep?.name} className="w-full h-full object-cover rounded" />
                                 </div>
 

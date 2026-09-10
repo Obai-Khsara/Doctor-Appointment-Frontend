@@ -48,7 +48,7 @@ const DoctorDetails = () => {
                             <Link className="flex items-center bg-white rounded-lg shadow p-3 " key={doc?._id} to={`/doctor/${doc?._id}`}>
 
                                 <img loading='lazy'
-                                    className="w-16 h-16 rounded-full object-cover border mr-4" src={` https://doctor-appointment-backend-umot.onrender.com/uploads/${doc?.image}`} />
+                                    className="w-16 h-16 rounded-full object-cover border mr-4" src={doc?.image} />
                                 <div >
                                     <h4>{doc?.name}</h4>
                                     <p>Experience: {doc?.experienceYears} years</p>

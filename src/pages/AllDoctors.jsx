@@ -25,7 +25,7 @@ const AllDoctors = () => {
                         <Link to={`/doctor/${doc?._id}`}>
                             <img loading='lazy'
                                 className="w-32 h-32 mx-auto rounded-full object-cover border mb-4"
-                                src={` https://doctor-appointment-backend-umot.onrender.com/uploads/${doc?.image}`} />
+                                src={doc?.image} />
 
                             <h3 className="text-xl font-semibold">{doc?.name}</h3>
 
