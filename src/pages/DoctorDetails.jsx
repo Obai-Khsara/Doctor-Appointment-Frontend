@@ -24,7 +24,7 @@ const DoctorDetails = () => {
 
                 <img loading='lazy'
                     className="w-64 h-64 object-cover rounded-lg shadow-md mb-6 md:mb-0 md:mr-10"
-                    src={` https://doctor-appointment-backend-umot.onrender.com/uploads/${doctor?.image}`} alt={doctor?.name} />
+                    src={doctor?.image} alt={doctor?.name} />
 
                 <div className='space-y-4'>
                     <h2 className='text-4xl font-bold text-[#008e9b]'>{doctor?.name}</h2>
